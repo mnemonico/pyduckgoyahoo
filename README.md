@@ -3,17 +3,17 @@ a very small api to get urls results from the search engines yahoo and duckduckg
 
 There are two Objects : 
 Object one, Yahoo result object from Yahoo_object class , their attributes are: 
-title
-name
-snippet
-description
-url
+title,
+name,
+snippet,
+description,
+url,
 
 Object two, Duckduckgo_object result object from Yahoo_object class , their attributes are: 
-title
-name
-snippet
-description
+title,
+name,
+snippet,
+description,
 url
 
 Search example 
@@ -23,12 +23,12 @@ Search example
     resultas = []
     yahoo = PySearchYahoo()  
     query = "Donald Trump"  
-    resultas =yahoo.search(query) #you can increment the number of page yahoo.search(query,2) [1,2,3,5] by default 1 page
+    resultas =yahoo.search(query) #you can increment the number of page yahoo.search(query,2) [1,2,3,5] by default 1 page as result
     
     """
     resultas = []
     duck = PySearchDuckDuckgo()
-    resultas = duck.search("Donald Trump") #you can deffine the size of result duck.search(query,15) [1-30] by default 30  results 
+    resultas = duck.search("Donald Trump") #you can define the size of result duck.search(query,15) [1-30] by default 30  results 
     """
     
     In[1]:resultas
