@@ -4,7 +4,8 @@ a very small api to get urls results from the search engines yahoo and duckduckg
 Yahoo_object class and Duckduckgo_object class attributes are: 
 title,name,snippet,description,url
 
-Search example 
+Search example
+
     import * from pyduckgoyahoo.py
     if __name__ == '__main__':
     
