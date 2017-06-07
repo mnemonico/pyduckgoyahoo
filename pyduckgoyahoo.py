@@ -6,19 +6,11 @@ Created on Wed Apr  5 10:42:31 2017
 @author: achrafbaiz
 """
 
-import mechanize as mech
 import requests
-import urlparse 
 from bs4 import BeautifulSoup
 
 
 
-"""
-br = mech.Browser()
-br.set_handle_robots(False)
-br.addheaders = [('User-agent','Mozilla/5.0')]
-htmlresponse = br.open(url).read()
-"""
 class Yahoo_object:
     def __init__(self,title,name,snippet,description,url):
         self.title=title
