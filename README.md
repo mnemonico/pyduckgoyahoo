@@ -1,23 +1,11 @@
 # pyduckgoyahoo
 a very small api to get urls results from the search engines yahoo and duckduckgo for those aiming to scrap the results
 
-There are two Objects : 
-Object one, Yahoo result object from Yahoo_object class , their attributes are: 
-title,
-name,
-snippet,
-description,
-url,
-
-Object two, Duckduckgo_object result object from Yahoo_object class , their attributes are: 
-title,
-name,
-snippet,
-description,
-url
+Yahoo_object class and Duckduckgo_object class attributes are: 
+title,name,snippet,description,url
 
 Search example 
-
+    import * from pyduckgoyahoo.py
     if __name__ == '__main__':
     
     resultas = []
