@@ -9,8 +9,11 @@ Created on Wed Apr  5 10:42:31 2017
 import requests
 from bs4 import BeautifulSoup
 import os
+import sys
 
-
+"""
+Yahoo_object Class
+"""
 class Yahoo_object:
     def __init__(self,title,name,snippet,description,url):
         self.title=title
@@ -19,6 +22,9 @@ class Yahoo_object:
         self.description=description
         self.url=url
 
+"""
+Duckduckgo_object Class
+"""
 class Duckduckgo_object:
     def __init__(self,title,name,snippet,description,url):
         self.title=title
